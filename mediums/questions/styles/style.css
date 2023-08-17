@@ -1,0 +1,51 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz {
+    background: #e3f6f5;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: #576360;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#question {
+    color: #5a6772;
+    font-size: 1.7rem;
+}
+
+.button {
+    background-color: rgb(89, 108, 102);
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    border-radius: .3rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #557795;
+}
+
+#progress {
+    font-size: 20px;
+    
+}
