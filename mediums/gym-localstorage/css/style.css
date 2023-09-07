@@ -1,0 +1,26 @@
+#taskData p {
+    display: inline;
+}
+
+#updateBtn {
+    display: none;
+}
+
+.stateBtn, .editBtn, .deleteBtn {
+    cursor: pointer;
+}
+
+.stateBtn:hover, .editBtn:hover, .deleteBtn:hover {
+    opacity: .5;
+}
+
+#messageForm {
+    letter-spacing: 4px;
+    border-radius: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem .5rem;
+    font-weight: bold;
+    display: none;
+    text-align: center;
+}
