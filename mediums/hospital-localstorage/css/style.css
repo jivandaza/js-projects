@@ -1,0 +1,31 @@
+.navbar  .nav-link:hover {
+    opacity: .5;
+}
+
+#formButtons {
+    justify-content: center;
+}
+
+#formButtons button {
+    width: 20%;
+}
+
+#formButtons button span {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#patientTable thead tr td {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#doctorTable thead tr td {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#messageForm {
+    display: none;
+}

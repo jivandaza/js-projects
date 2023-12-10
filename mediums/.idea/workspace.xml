@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76a4afee-17ae-4553-8946-82c9ec49f35d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/crud-localstorage/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-localstorage/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-localstorage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crud-localstorage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud-localstorage/js/crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/crud-localstorage/js/crud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-finder-app/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-finder-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-finder-app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-finder-app/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-app/js/app.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +21,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -39,25 +52,39 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/gym-localstorage/index.html" useBuiltInWebServerPort="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Documents\Programacion\JavaScript\js-projects\mediums\hospital-localstorage\recourses\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="admin.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/hospital-localstorage/recourses/views/admin.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/gym-localstorage/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/hospital-localstorage/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/crud-localstorage/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/validate-form/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="loader.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/hospital-localstorage/recourses/views/loader.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="patient.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mediums/mediums/hospital-localstorage/recourses/views/patient.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.admin.html" />
+        <item itemvalue="JavaScript Debug.patient.html" />
+        <item itemvalue="JavaScript Debug.loader.html" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +98,28 @@
       <updated>1693838174136</updated>
       <workItem from="1693838175254" duration="17794000" />
       <workItem from="1693921603035" duration="8418000" />
-      <workItem from="1694001872644" duration="1685000" />
+      <workItem from="1694001872644" duration="1726000" />
+      <workItem from="1694219301442" duration="181000" />
+      <workItem from="1694377890646" duration="4583000" />
+      <workItem from="1694382607625" duration="172000" />
+      <workItem from="1694382929607" duration="205000" />
+      <workItem from="1694479771910" duration="595000" />
+      <workItem from="1694528948261" duration="117000" />
+      <workItem from="1694535378308" duration="1868000" />
+      <workItem from="1694573955952" duration="544000" />
+      <workItem from="1694612567335" duration="996000" />
+      <workItem from="1695861357613" duration="34250000" />
+      <workItem from="1697040370540" duration="726000" />
+      <workItem from="1697137965272" duration="132000" />
+      <workItem from="1697386485517" duration="8064000" />
+      <workItem from="1697398679780" duration="1572000" />
+      <workItem from="1697633991507" duration="49803000" />
+      <workItem from="1700134370401" duration="1850000" />
+      <workItem from="1700238475330" duration="18144000" />
+      <workItem from="1700353119646" duration="648000" />
+      <workItem from="1700407927682" duration="20637000" />
+      <workItem from="1701099438839" duration="155000" />
+      <workItem from="1702164707546" duration="4602000" />
     </task>
     <servers />
   </component>

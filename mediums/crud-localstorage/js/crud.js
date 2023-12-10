@@ -16,8 +16,11 @@ const updateBtnForm = document.getElementById("Update");
 
 // Click event of the submit button of the form
 addBtnForm.addEventListener("click", ( ) => {
-    console.log( getPeopleForm() );
+    let tableUI = document.getElementById("crudTable");
     savePeople( getPeopleForm() );
+    if ( getPeopleList().length !== 0 ) {
+        tableUI.parentElement.children[1].textContent = "";
+    }
 });
 
 // Click event of the update button of the form
@@ -93,7 +96,7 @@ function savePeople( data ) {
             let peopleList = getPeopleList();
             peopleList.push( data );
             saveDataLocalStorage( peopleList, data.email );
-            showTablePeopleUI();
+            showTablePatientUI();
             clearFormFields();
         }
     }
@@ -105,7 +108,7 @@ function updatePeople( data ) {
     if ( validateForm( data ) ) {
         document.getElementById("titleForm").textContent = "Add People";
         updateDataLocalStorage( getPeopleList(), data.email );
-        showTablePeopleUI();
+        showTablePatientUI();
         clearFormFields();
         document.getElementById("Update").style.display = "none";
         document.getElementById("Submit").style.display = "inline-block";
@@ -118,7 +121,7 @@ function deletePeople( index ) {
     let peopleList = getPeopleList();
     peopleList.splice( index, 1 );
     deleteDataLocalStorage( peopleList, getEmail(index) );
-    showTablePeopleUI();
+    showTablePatientUI();
 }
 
 /*     *********************************************************************************     */
@@ -156,7 +159,7 @@ function deleteDataLocalStorage( peopleList, email ) {
 const createRowTable = () => {
     let rowTable = "";
     getPeopleList().forEach((element, index) => {
-        rowTable += "<tr>";
+        rowTable += "<tr class='text-center'>";
         rowTable += "<td>" + element.name + "</td>";
         rowTable += "<td>" + element.age + "</td>";
         rowTable += "<td>" + element.address + "</td>";
@@ -179,14 +182,13 @@ const createRowTable = () => {
 }
 
 // function to show data in table form
-export function showTablePeopleUI() {
+export function showTablePatientUI() {
     let tableUI = document.getElementById("crudTable");
     let tbodyUI = document.querySelector("#crudTable tbody");
     if ( getPeopleList().length === 0 ) {
         tbodyUI.innerHTML = "";
         tableUI.parentElement.innerHTML += "<p class='text-center'>There are no people to show in the table...</p>";
     } else {
-        tableUI.parentElement.children[1].innerHTML = ""
         tbodyUI.innerHTML = createRowTable();
         let deleteBtn = document.querySelectorAll( ".deleteBtn" );
         let updateBtn = document.querySelectorAll( ".updateBtn" );
